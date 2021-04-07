@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport'/>
+        <title>{% block title %}Welcome!{% endblock %} | Hsm</title>
+        {{ encore_entry_link_tags('app') }}
+        {% block stylesheets %}{% endblock %}
+
+        {{ encore_entry_script_tags('app') }}
+        {% block javascripts %}{% endblock %}
+    </head>
+    <body class="sidebar-mini">
+    <div class="main-wrapper">
+        <div class="navbar-bg"></div>
+        {{ include('base/nav_bar/_index.html.twig') }}
+        {{ include('base/side_bar/_index.html.twig') }}
+        {% block body %}
+
+        {% endblock %}
+        {{ include('base/footer/_index.html.twig') }}
+    </div>
+    </body>
+</html>
