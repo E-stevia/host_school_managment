@@ -17,8 +17,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3776e5da-85e6-4f3d-95dd-45687b0b22db" name="Default Changelist" comment="feat: mise en place de izitoastr.js">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/dashboard_index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/dashboard_index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/host_school_managment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/database/data.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/nav_bar/_index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/nav_bar/_index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/side_bar/_search_element.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/nav_bar/_search_element.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +181,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -184,19 +199,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets" />
-      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets\core\plugins\css" />
-      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets\core" />
-      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\src\Infrastructure" />
-      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\src\Http" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\public\images\app" />
       <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets\template" />
       <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets\template\js" />
       <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets\template\css" />
       <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets\styles\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\templates\base\nav_bar" />
+      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets" />
+      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets\core\plugins\css" />
+      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\assets\core" />
+      <recent name="D:\Serveur\wamp64_v3.2.3\www\host_school_managment\src\Infrastructure" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -213,6 +228,10 @@
       <workItem from="1617614200756" duration="12347000" />
       <workItem from="1617710130924" duration="4510000" />
       <workItem from="1617722874591" duration="13861000" />
+      <workItem from="1617802844018" duration="2007000" />
+      <workItem from="1617823349115" duration="149000" />
+      <workItem from="1617842362275" duration="2034000" />
+      <workItem from="1617877243320" duration="5996000" />
     </task>
     <task id="LOCAL-00001" summary="feat: premiere configuration de l'env de travail ( webpack, react-preset, file structure)">
       <created>1617617143124</created>
@@ -297,11 +316,23 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1617618158435" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617960779450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1617960779450" />
+    <state x="448" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617960590857">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="448" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1617960590857" />
     <state x="164" y="0" key="CommitChangelistDialog2" timestamp="1617798750487">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="164" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040/3286.0.1680.1010@0.0.1366.728" timestamp="1617798750487" />
     <state x="164" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1617620182130" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1617960636578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1617960636578" />
     <state x="367" y="76" key="NewPhpClassDialog" timestamp="1617793642326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -324,11 +355,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="64" width="581" height="600" key="find.popup/0.0.1366.728/1366.0.1920.1040/3286.0.1680.1010@0.0.1366.728" timestamp="1617793601733" />
-    <state x="484" y="266" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1617799082268">
+    <state x="484" y="266" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1617843733700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="266" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728/1366.0.1920.1040/3286.0.1680.1010@0.0.1366.728" timestamp="1617799082268" />
-    <state x="484" y="266" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1617617277560" />
+    <state x="484" y="266" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1617843733700" />
     <state x="474" y="222" width="495" height="377" key="scopes" timestamp="1617615117517">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
